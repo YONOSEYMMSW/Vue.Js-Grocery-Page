@@ -1,18 +1,14 @@
 <script setup>
-import Gallery from './components/Gallery.vue'
+import FlipFlop from './components/Flip-Flop.vue'
+
+
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div id="app">
+    <h1>Flip Card Grid with PrimeVue</h1>
+    <FlipCardGrid />
   </div>
-  <HelloWorld msg="Vite + Vue" />
-  <Gallery />
 </template>
 
 <style scoped>
